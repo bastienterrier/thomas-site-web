@@ -1,0 +1,52 @@
+li {
+  /* font-weight: bold;
+  text-decoration: underline; */
+  color: blue;
+}
+
+body {
+  /* background-color: #1c9c67; */
+  color: green;
+}
+
+.menu-actif {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.wip {
+  text-decoration: underline;
+}
+
+table {
+  padding: 5px;
+}
+
+.tableau-deux-colonnes {
+  border: solid 1px black;
+  color: rgb(50, 27, 151);
+}
+
+#mon-super-tableau {
+  border: solid 5px red;
+  padding: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #ee00ee;
+}
+
+a:hover {
+  color: #efafbe;
+  text-decoration: underline;
+}
+
+button:disabled {
+  color: green;
+}
+
+p,
+a {
+  font-size: 20px;
+}

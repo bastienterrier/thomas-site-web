@@ -1,0 +1,38 @@
+article {
+  display: flex;
+  justify-content: space-between;
+}
+
+article p {
+  align-self: center;
+}
+
+p {
+  text-align: justify;
+}
+
+/* 2 types d'éléments : <article> et <hr> */
+/* 4n + 1 => article impair */
+/* 4n + 2 => hr impair */
+/* 4n + 3 => article pair */
+/* 4n + 0 => hr pair */
+
+/* articles impairs */
+
+article:nth-child(4n + 1) p {
+  margin-right: 40px;
+}
+
+article:nth-child(4n + 1) img {
+  order: 1;
+}
+
+/* articles impairs */
+
+article:nth-child(4n + 3) p {
+  margin-left: 40px;
+}
+
+article:nth-child(4n + 3) img {
+  order: 0;
+}
