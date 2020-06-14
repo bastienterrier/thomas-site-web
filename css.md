@@ -18,6 +18,20 @@ Certains éléments (h1, h2..., p, ul, div) sont des éléments dits de type `bl
 
 Au contraire, les éléments `inline` ne prennent que l'espace dont ils ont besoin pour s'afficher (a, img, span). Leur éléments frères seront donc à côté d'eux.
 
+### Display `flex`
+
+Lorsque l'on souhaite positioner des éléments de façon particulière (changer le positionnement par défaut), on peut utiliser les `flexboxs`: `display: flex;`.
+
+![Flexbox exemple](https://i.pinimg.com/564x/9c/83/89/9c8389214caea9999e7ee5084b34e316.jpg)
+
+Par défaut, les éléments se positionnent en ligne (`flex-direction: row;`). On peut changer l'**axe** principal en colonne (`flex-direction: colmun;`).
+
+Il existe de nombreuses propriétés pour changement le positionnement des éléments enfants : [voir cet article Medium](https://medium.com/code-sketch/flexbox-visual-guide-17ab04d6a536).
+
+Dans notre cours, nous avons utilisé le `justify-content: space-between;` qui permet d'opposer les éléments de la ligne.
+
+Pour centrer verticalement le paragraphe, nous avons utilisé le `align-self: center;` qui permet de définir l'alignement de l'élément en question ("self").
+
 ### Classes et IDs
 
 #### Classes
