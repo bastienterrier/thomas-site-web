@@ -31,7 +31,7 @@
 
     <main>
       <section>
-        <article>
+        <article class="description-artiste">
           <img src="https://via.placeholder.com/190" />
           <div>
             <p>
@@ -65,9 +65,10 @@
           </div>
         </article>
 
+        <!-- Si on doit enlever le HR, attention à mettre à jour le sélecteur nth-child dans le CSS !!!! -->
         <hr />
 
-        <article>
+        <article class="custom-class festival">
           <img src="https://via.placeholder.com/190" />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
@@ -88,19 +89,21 @@
             natus officiis.Lorem ipsum dolor sit amet consectetur adipisicing
             elit. Deserunt sunt fugiat in a inventore temporibus illo dicta
             exercitationem atque, magni aut dolorum cupiditate? Est beatae quis
-            consequatur eveniet natus officiis.Lorem ipsum dolor sit amet fugiat
-            in a inventore temporibus illo dicta exercitationem atque, magni aut
-            dolorum cupiditate? Est beatae quis consequatur eveniet natus
-            officiis.
+            consequatur eveniet natus officiis.<span class="custom-class"
+              >Lorem</span
+            >
+            ipsum dolor sit amet fugiat in a inventore temporibus illo dicta
+            exercitationem atque, magni aut dolorum cupiditate? Est beatae quis
+            consequatur eveniet natus officiis.
           </p>
         </article>
 
         <hr />
 
         <article>
-          <img src="https://via.placeholder.com/190" />
-          <div>
-            <p>
+          <img class="big-image" src="https://via.placeholder.com/190" />
+          <div class="big">
+            <p class="big">
               Lorem ipsum dolor sit amet consectetur
               <a href="#">adipisicing</a> elit. Deserunt sunt fugiat in a Lorem
               ipsum dolor sit amet consectetur adipisicing elit. Deserunt sunt

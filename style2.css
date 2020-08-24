@@ -19,7 +19,7 @@ p {
 
 /* articles impairs */
 
-article:nth-child(4n + 1) p {
+article:nth-child((4n + 1)) p {
   margin-right: 40px;
 }
 
@@ -27,7 +27,7 @@ article:nth-child(4n + 1) img {
   order: 1;
 }
 
-/* articles impairs */
+/* articles pairs */
 
 article:nth-child(4n + 3) p {
   margin-left: 40px;
@@ -35,4 +35,24 @@ article:nth-child(4n + 3) p {
 
 article:nth-child(4n + 3) img {
   order: 0;
+}
+
+.custom-class {
+  color: red;
+  display: none;
+}
+img {
+  height: 150px;
+}
+img.big{
+height: 500px;
+}
+p.big {
+  font-size: xx-large;
+}
+div.big {
+  font-weight: bold;
+}
+.big-image {
+  height: 500px;
 }
